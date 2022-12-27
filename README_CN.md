@@ -17,4 +17,23 @@ git cliff --latest    # not release,
 git cliff --latest --tag 1.0.0 # release to 1.0.0
 ```
 
+### 格式说明
+* demo 格式如下， 新增功能 https filter (属于http模块), 关闭issue 12 和 issue 13
+```bash
+git commit -a -m "feat(http): #12 #13 https filter"
+
+# 可选(http)
+# 可选(#12 #13), issue 可以0个或者多个
+```
+* 支持的字段如下
+  * feat: 新功能（feature）
+  * fix: 修复bug
+  * doc: 文档改变
+  * style: 代码格式改变
+  * refactor: 某个已有功能重构
+  * perf: 性能优化
+  * test: 增加测试, 主要指集成测试；单元测试应当在开发feat或者fix时创建
+  * chore: 构建过程或辅助工具的变动
+
+
 
