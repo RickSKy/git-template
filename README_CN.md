@@ -18,7 +18,7 @@ git cliff --latest --tag 1.0.0 # release to 1.0.0
 ```
 
 ### 格式说明
-* demo 格式如下， 新增功能 https filter (属于http模块), 关闭issue 12 和 issue 13
+* demo 格式如下。demo描述： 新增功能 https filter (属于http模块), 关闭issue 12 和 issue 13
 ```bash
 git commit -a -m "feat(http): #12 #13 https filter"
 
