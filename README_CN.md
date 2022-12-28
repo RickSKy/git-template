@@ -14,7 +14,8 @@ git init
 * 后续每次生成changelog 运行以下命令即可
 ```bash 
 git cliff --latest    # not release, 
-git cliff --latest --tag 1.0.0 # release to 1.0.0
+git cliff --latest --tag "Release 1.0.0"  # release to 1.0.0
+git cliff --latest --tag "Beta 1.0.0"     # Beta 版本
 ```
 
 ### 格式说明
