@@ -16,6 +16,7 @@ git init
 git cliff --latest    # not release, 
 git cliff --latest --tag "Release 1.0.0"  # release to 1.0.0
 git cliff --latest --tag "Beta 1.0.0"     # Beta 版本
+git cliff --current -o RELEASE.md  # 利用当前tag名称进行发布
 ```
 
 ### 格式说明
